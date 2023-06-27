@@ -1,0 +1,70 @@
+.cc{
+    background-color: #f3f1f1de;
+}
+.agregar{
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.agregar_tipo{
+    flex-basis: 10%;
+    padding: 10px;
+    border: 1px solid #cccccc92;
+    box-sizing: border-box;
+    margin: 10px;
+    font-size: 20px;
+}
+.agregar_descripcion{
+    flex-basis: 48%;
+    padding: 10px;
+    border: 1px solid #cccccc92;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.agregar_valor{
+    flex-basis: 30%;
+    padding: 10px;
+    border: 1px solid #cccccc92;
+    box-sizing: border-box;
+    margin: 10px;
+} 
+.agregar_btn{
+    flex-basis: 4%;
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: center;
+    color: rgb(86, 186, 228);
+    text-align: center;
+    margin: 10px;
+}
+.agregar_btn:hover{
+    cursor: pointer;
+}
+.agregar_btn i {
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
+.agregar_descripcion:focus,
+.agregar_valor:focus,
+.agregar_tipo:focus {
+  border: 2px solid rgb(86, 186, 228);
+  outline: none;
+}
+
+@media (max-width: 760px) {
+    .agregar_tipo{
+        flex-basis: 7%;
+    }
+    .agregar_descripcion{
+        flex-basis:73%;
+    }
+    .agregar_valor{
+        flex-basis: 80%;
+    }
+}

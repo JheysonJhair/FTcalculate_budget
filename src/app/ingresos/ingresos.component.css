@@ -1,0 +1,54 @@
+.ingresos_titulo{
+    text-transform: uppercase;
+    color: rgb(86, 186, 228);
+    padding: 10px;
+}
+.elemento{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border: 1px solid #cccccc92;
+    justify-content: center;
+    padding: 5px;
+}
+@media (max-width: 760px) {
+    .elemento{ 
+        gap: 2px;
+    }
+}
+.elemento:hover{
+    background-color: #f8f8f8;
+}
+.elemento_descripcion{
+    padding: 10px;
+}
+.right{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    float: right;
+    padding: 10px;
+}
+.elemento_valor{
+    text-align: right;
+    color: rgb(86, 186, 228);
+}
+.elemento_eliminar{
+    width: 30px;
+    text-align: right;
+    
+}
+.elemento_eliminar--btn{
+    width: 30px;
+    margin-left: 6px;
+    border: none;
+    font-size: 20px;
+    color: rgb(86, 186, 228); 
+    display: none;  
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.right:hover .elemento_eliminar--btn {
+    display: block;
+}

@@ -1,0 +1,12 @@
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 54px;
+    padding: 30px 50px 30px 50px   
+}
+@media (max-width: 760px) {
+    .cont{ 
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}

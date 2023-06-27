@@ -1,0 +1,86 @@
+.cabecero {
+    width: 100%;
+    background: linear-gradient(to right,
+    rgba(107, 207, 172, 0.88),
+    rgba(12, 123, 143, 0.867)
+    ), url('../../assets/FondoPrincipal.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.presupuesto{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px 20px 40px 20px
+}
+.presupuesto_titulo{
+    color: #ffffff;
+    margin: 10px;
+    font-size: 24px;
+}
+.presupuesto_valor{
+    font-size: 40px;
+    color: #ffffff;
+    margin: 30px;
+}
+.presupuesto_ingreso{
+    width: 100%;
+    background-color: rgb(59, 197, 170);
+    color: #ffffff;
+    margin-bottom: 5px;
+    padding: 20px;
+    overflow: auto;
+    text-align: center; 
+    border-radius: 4px;
+}
+.presupuesto_ingreso--texto{
+    color: #28272a;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+}
+.right{
+    color: #ffffff;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.presupuesto_ingreso--porcentaje{
+    width: 50px;
+}
+
+.egreso{
+    width: 100%;
+    background-color: rgb(212, 80, 80);
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 20px;
+    overflow: auto; 
+    text-align: center; 
+    border-radius: 4px;
+}
+.egreso--texto{
+    color: #000000;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+}
+
+.egreso--porcentaje{
+    width: 37px;
+    font-size: 13px;
+    background-color: #ffffff50;
+    margin-left: 10px;
+    border-radius: 3px;
+    padding-top: 4px;
+}
