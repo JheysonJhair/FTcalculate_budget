@@ -10,6 +10,7 @@ import { EgresosComponent } from './egresos/egresos.component';
 import { servicioIngreso } from './ingresos/servicioIngreso.servicio';
 import { servicioEgreso } from './egresos/servicioEgreso.servicio';
 import { FormsModule } from '@angular/forms';
+import { HeadComponent } from './head/head.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     CabeceraComponent,
     FormularioComponent,
     IngresosComponent,
-    EgresosComponent
+    EgresosComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
