@@ -10,6 +10,7 @@ import { servicioEgreso } from './egresos/servicioEgreso.servicio';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title:string = "App-Presupuesto";
   ingresos:Ingreso [] = [];
   egresos:Egreso [] = [];
 
