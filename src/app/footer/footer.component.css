@@ -73,3 +73,16 @@
     display: block;
     transition: .3s ease all;
 }
+
+@media screen and (max-width: 768px) {
+
+    /* Ajusta el valor de 768px según tus necesidades */
+    .content-contact {
+        display: block;
+    }
+
+    .item__contact {
+        border-bottom: 1px solid #cccccc92;
+        width: 100%;
+    }
+}

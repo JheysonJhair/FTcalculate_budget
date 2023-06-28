@@ -1,9 +1,10 @@
-.egreso_titulo{
+.egreso_titulo {
     text-transform: uppercase;
     color: rgb(228, 86, 86);
     padding: 10px;
 }
-.elemento{
+
+.elemento {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -11,51 +12,61 @@
     justify-content: center;
     padding: 5px;
 }
+
 @media (max-width: 760px) {
-    .elemento{ 
+    .elemento {
         gap: 2px;
     }
-    .elemento_porcentaje{
+
+    .elemento_porcentaje {
         width: 17px;
         height: 24px;
     }
 }
-.elemento:hover{
+
+.elemento:hover {
     background-color: #f8f8f8;
 }
-.elemento_descripcion{
+
+.elemento_descripcion {
     padding: 10px;
 }
-.right{
+
+.right {
     text-align: right;
     display: flex;
     justify-content: right;
     float: right;
     padding: 10px;
 }
-.elemento_valor{
+
+.elemento_valor {
     text-align: right;
     color: rgb(228, 86, 86);
 }
-.elemento_eliminar{
+
+.elemento_eliminar {
     width: 30px;
     text-align: right;
 }
-.elemento_eliminar--btn{
+
+.elemento_eliminar--btn {
     width: 30px;
     margin-left: 6px;
     border: none;
     font-size: 20px;
-    color: rgb(228, 86, 86);  
-    display: none;  
+    color: rgb(228, 86, 86);
+    display: none;
     background: none;
     border: none;
     cursor: pointer;
 }
+
 .right:hover .elemento_eliminar--btn {
     display: block;
-  }
-.elemento_porcentaje{
+}
+
+.elemento_porcentaje {
     width: 37px;
     font-size: 13px;
     background-color: #eb353550;
