@@ -11,6 +11,7 @@ import { servicioIngreso } from './ingresos/servicioIngreso.servicio';
 import { servicioEgreso } from './egresos/servicioEgreso.servicio';
 import { FormsModule } from '@angular/forms';
 import { HeadComponent } from './head/head.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HeadComponent } from './head/head.component';
     FormularioComponent,
     IngresosComponent,
     EgresosComponent,
-    HeadComponent
+    HeadComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
